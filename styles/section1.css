@@ -1,0 +1,37 @@
+
+.container__paragraph {
+    margin-bottom: 40px;
+}
+
+.container__section1__image {
+    margin: 40px 0;
+}
+
+.container__image {
+    max-width: 80vw;
+}
+
+
+@media (min-width: 768px){
+
+.container__paragraph{
+    max-width: 60vw;
+    margin:0 auto;
+}
+
+.container__section1__image{
+width: 60%;
+position: relative;
+right:100px;
+}
+.container__section1_paragraph{
+    text-align: left;
+    margin: auto;
+    max-width: 30vw;
+}
+.container__paragraph{
+    
+    margin-bottom: 40px;
+}
+
+}

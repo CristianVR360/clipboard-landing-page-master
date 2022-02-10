@@ -1,0 +1,28 @@
+header{
+background-image: url("/assets/images/bg-header-mobile.png");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 20px;
+padding-top: 80px;
+margin-bottom: 40px;
+}
+
+h1{
+    font-weight: 600;
+    margin-top: 50px;
+}
+.container__section1__image{
+    max-width: 80vw;
+}
+
+.button_container{
+display: flexbox;
+margin-top:40px;
+
+}
+
+@media (min-width: 768px){ 
+    header{
+    background-image: url("/assets/images/bg-header-desktop.png");
+    }
+}
